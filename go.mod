@@ -28,3 +28,6 @@ require (
 // NOTE: golang.org/x/xerrors is only needed for Go < 1.13; can drop once
 //       minimum Go version is raised (currently go 1.21, so this is safe to
 //       remove in a future cleanup pass)
+// NOTE: github.com/golang/groupcache is a transitive indirect dep pulled in
+//       via opencensus; worth revisiting if opencensus dependency is ever
+//       removed or replaced with otel (opentelemetry-go).
