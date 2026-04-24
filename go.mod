@@ -25,3 +25,6 @@ require (
 
 // Personal fork - bumped protobuf to latest patch release for CVE fixes
 // TODO: periodically sync with upstream grpc/grpc-go to pick up new releases
+// NOTE: golang.org/x/xerrors is only needed for Go < 1.13; can drop once
+//       minimum Go version is raised (currently go 1.21, so this is safe to
+//       remove in a future cleanup pass)
