@@ -31,3 +31,5 @@ require (
 // NOTE: github.com/golang/groupcache is a transitive indirect dep pulled in
 //       via opencensus; worth revisiting if opencensus dependency is ever
 //       removed or replaced with otel (opentelemetry-go).
+// NOTE: golang.org/x/net, x/sys, and x/text are kept in sync with each other;
+//       when bumping one, bump all three together to avoid subtle ABI mismatches.
