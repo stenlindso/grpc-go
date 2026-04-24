@@ -24,3 +24,4 @@ require (
 )
 
 // Personal fork - bumped protobuf to latest patch release for CVE fixes
+// TODO: periodically sync with upstream grpc/grpc-go to pick up new releases
