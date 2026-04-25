@@ -33,3 +33,5 @@ require (
 //       removed or replaced with otel (opentelemetry-go).
 // NOTE: golang.org/x/net, x/sys, and x/text are kept in sync with each other;
 //       when bumping one, bump all three together to avoid subtle ABI mismatches.
+// NOTE: golang.org/x/xerrors marked for removal - tracked in personal TODO list;
+//       confirmed unused at runtime on Go 1.21+ (errors.Is/As cover all cases).
